@@ -1,0 +1,183 @@
+@page {
+  size: Letter;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #4a4a4a;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 9.05pt;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.resume {
+  background: #fff;
+  height: 11in;
+  overflow: hidden;
+  padding: 0.37in 0.55in 0.28in;
+  position: relative;
+  width: 8.5in;
+}
+
+.header {
+  align-items: start;
+  display: flex;
+  height: 0.83in;
+  justify-content: space-between;
+}
+
+.name {
+  color: #1a1a1a;
+  font-size: 20pt;
+  font-weight: 400;
+  letter-spacing: 0.29em;
+  line-height: 1;
+  padding-top: 0.08in;
+  white-space: nowrap;
+}
+
+.contact {
+  column-gap: 0.05in;
+  display: grid;
+  font-size: 8pt;
+  grid-template-columns: 0.55in 1.14in;
+  line-height: 1.45;
+  margin: 0;
+  text-align: right;
+  width: 1.74in;
+}
+
+.contact dt {
+  color: #1a1a1a;
+  font-weight: 700;
+}
+
+.contact dd {
+  margin: 0;
+}
+
+h1,
+h2 {
+  border-bottom: 0.55pt solid #b7b7b7;
+  color: #1a1a1a;
+  font-size: 9.55pt;
+  font-weight: 700;
+  letter-spacing: 0.34em;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 0.065in;
+  text-transform: uppercase;
+}
+
+.summary p {
+  font-size: 9.45pt;
+  line-height: 1.35;
+  margin: 0.065in 0 0.12in;
+  text-align: justify;
+}
+
+.experience > h2,
+.education > h2 {
+  margin-bottom: 0.09in;
+}
+
+.role {
+  break-inside: avoid;
+  margin-bottom: 0.095in;
+}
+
+.role-header {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.025in;
+  white-space: nowrap;
+}
+
+.company {
+  color: #1a1a1a;
+  font-size: 9.55pt;
+  margin-right: 0.055in;
+}
+
+.title {
+  font-size: 9.55pt;
+}
+
+.tenure {
+  color: #707070;
+  font-size: 8.55pt;
+}
+
+.tenure i {
+  color: #707070;
+  font-style: normal;
+  margin: 0 0.07in;
+}
+
+.tenure strong {
+  color: #2d2d2d;
+}
+
+.team {
+  color: #6a6a6a;
+  font-size: 8.25pt;
+  font-style: italic;
+  margin: 0 0 0.025in;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0.255in;
+}
+
+li {
+  margin: 0 0 0.02in;
+  padding-left: 0.005in;
+}
+
+.paypal {
+  margin-bottom: 0.095in;
+}
+
+.education-line {
+  align-items: baseline;
+  display: flex;
+  gap: 0.065in;
+  white-space: nowrap;
+}
+
+.education-line strong {
+  color: #1a1a1a;
+  font-size: 9.55pt;
+}
+
+.education-line em {
+  font-size: 9.55pt;
+}
+
+.ats-keywords {
+  bottom: 0.12in;
+  color: #fff;
+  font-size: 0.55pt;
+  left: 0.62in;
+  line-height: 0.64pt;
+  position: absolute;
+  right: 0.62in;
+  z-index: 2;
+}

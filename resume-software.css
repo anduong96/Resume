@@ -1,0 +1,4 @@
+.fullstack-only,
+.mobile-only {
+  display: none;
+}

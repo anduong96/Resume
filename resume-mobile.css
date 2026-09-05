@@ -1,0 +1,5 @@
+.software-only,
+.fullstack-only,
+.non-mobile {
+  display: none;
+}

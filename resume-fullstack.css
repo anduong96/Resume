@@ -1,0 +1,4 @@
+.software-only,
+.mobile-only {
+  display: none;
+}
