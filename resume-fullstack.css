@@ -1,4 +1,5 @@
 .software-only,
+.non-mobile,
 .mobile-only {
   display: none;
 }
